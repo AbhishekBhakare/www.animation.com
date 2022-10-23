@@ -1,0 +1,93 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+h2::after{
+    content: '';
+    animation: DOCOMEANDVISITINDIA 10s infinite linear;
+    color:rgb(247, 22, 15);
+    font-size: 60px;
+    
+    
+}
+.header ul h1{
+    animation: MeraBharat 5s infinite;
+}
+@keyframes MeraBharat {
+10%{color:rgb(251, 77, 2);}
+20%{color: white;}
+30%{color: green;}
+}
+.header ul h1{
+    text-align: end;
+    font-size: 80px;
+    color:darkorange;
+}
+@keyframes DOCOMEANDVISITINDIA{
+    10%{ content: "Maharashtra"}
+    20%{ content: "Gujarat";}
+    30%{content: "Goa";}
+    40%{content: "Bihar";}
+    50%{content: "Punjab";}
+    60%{content: "Kerala";}
+    70%{content: "West Bangal";}
+    80%{content: "Rajasthan";}
+}
+ .main{
+    width: 1915px;
+    height: 900px;
+    background-image: url(image/Taj.webp);
+    background-size: cover;
+    display: inline-block;
+ }
+ .header h1{
+    padding: 50px;
+
+ }
+ .header ul li{
+    list-style: none;
+    float: left;
+padding: 50px;
+font-size: 40px;
+
+ }
+
+.content{
+    padding-top: 20px;
+    padding-left: 250px;
+    color:black;
+    font-size: 30px;
+    
+}
+.header ul li a{
+color: cornsilk;
+}
+.header ul li a:hover{
+
+    border-bottom: 5px solid green;
+}
+.footer{
+    text-align: center;
+    padding: 150px;
+
+}
+.footer button{
+    font-size: 30px;
+border-radius: 40px;
+background-color: black;
+color: white;
+text-align: center;
+}
+.footer button:hover{
+    background-color: green;
+}
+.header ul li a{
+    text-decoration: none;
+}
+button{
+    height: 60px;
+    width: 300px;
+}
